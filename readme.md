@@ -11,6 +11,10 @@ Anagram example from unit test case:
 `"William Shakespeare" and "I am a weakish speller"`
 
 #### Launching the app
+If you use Unix based operating system, you may need to fix gradlew file using this command  
+```shell
+sed -i.bak 's/\r$//' gradlew
+```
 The application can be launched using gradle command
 ```shell
 ./gradlew run
